@@ -1,0 +1,411 @@
+{
+  "hits": [
+    {
+      "project_id": "YL57xq9U",
+      "project_type": "mod",
+      "slug": "iris",
+      "author": "coderbot",
+      "title": "Iris Shaders",
+      "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs",
+      "categories": [
+        "decoration",
+        "fabric",
+        "optimization",
+        "quilt"
+      ],
+      "display_categories": [
+        "decoration",
+        "fabric",
+        "optimization",
+        "quilt"
+      ],
+      "versions": [
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "downloads": 10669248,
+      "follows": 10692,
+      "icon_url": "https://cdn.modrinth.com/data/YL57xq9U/dc558eece920db435f9823ce86de0c4cde89800b.png",
+      "date_created": "2021-05-27T05:11:15.690120Z",
+      "date_modified": "2024-07-01T00:12:04.439550Z",
+      "latest_version": "mBwD8Zhm",
+      "license": "LGPL-3.0-only",
+      "client_side": "required",
+      "server_side": "unsupported",
+      "gallery": [
+        "https://cdn.modrinth.com/data/YL57xq9U/images/2fbd04f5d123577696e29b28bb7981a2bc95a0c8.png",
+        "https://cdn.modrinth.com/data/YL57xq9U/images/1c3d0dfbedf31dbee4e30e20c5329e5db9a881ae.png"
+      ],
+      "featured_gallery": "https://cdn.modrinth.com/data/YL57xq9U/images/d382106b9a2b943d06107c31c139c77849f1a0e8.png",
+      "color": 263172
+    },
+    {
+      "project_id": "TbriQCWD",
+      "project_type": "mod",
+      "slug": "geckoanimfix",
+      "author": "ElocinDev",
+      "title": "Iris/Oculus & GeckoLib Compat",
+      "description": "Fixes GeckoLib animations not working if using a shaderpack with entity shadows.",
+      "categories": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "display_categories": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versions": [
+        "1.18.2",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "downloads": 290129,
+      "follows": 77,
+      "icon_url": "https://cdn.modrinth.com/data/TbriQCWD/5b0cd877e80dc7167a73df5160f7b0cd43b15f43.png",
+      "date_created": "2024-01-11T04:09:05.524461Z",
+      "date_modified": "2024-03-16T05:05:38.990789Z",
+      "latest_version": "UoSPDBmz",
+      "license": "MIT",
+      "client_side": "required",
+      "server_side": "unsupported",
+      "gallery": [],
+      "featured_gallery": null,
+      "color": 14933974
+    },
+    {
+      "project_id": "ndHYMY2K",
+      "project_type": "mod",
+      "slug": "iris-flw-compat",
+      "author": "leon-o",
+      "title": "Iris & Oculus Flywheel Compat",
+      "description": "Enable Flywheel's optimizations when using shaderpacks.",
+      "categories": [
+        "fabric",
+        "forge",
+        "optimization"
+      ],
+      "display_categories": [
+        "fabric",
+        "forge",
+        "optimization"
+      ],
+      "versions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "downloads": 150107,
+      "follows": 73,
+      "icon_url": "https://cdn.modrinth.com/data/ndHYMY2K/7d3794f7fdc4974ce4386bfc3e0ec27140a33de5.png",
+      "date_created": "2024-02-22T08:25:31.147724Z",
+      "date_modified": "2024-06-05T15:25:09.777196Z",
+      "latest_version": "BBYE8uFO",
+      "license": "CC0-1.0",
+      "client_side": "required",
+      "server_side": "unsupported",
+      "gallery": [],
+      "featured_gallery": null,
+      "color": 3245230
+    },
+    {
+      "project_id": "cX5LI3lH",
+      "project_type": "mod",
+      "slug": "iris-explorer",
+      "author": "Metroite",
+      "title": "Iris Explorer",
+      "description": "Shaderpack Explorer for Iris",
+      "categories": [
+        "cursed",
+        "fabric",
+        "utility"
+      ],
+      "display_categories": [
+        "cursed",
+        "fabric",
+        "utility"
+      ],
+      "versions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "downloads": 1546,
+      "follows": 21,
+      "icon_url": "https://cdn.modrinth.com/data/cX5LI3lH/icon.png",
+      "date_created": "2021-02-13T23:56:16.791263Z",
+      "date_modified": "2021-04-11T21:22:31.232375Z",
+      "latest_version": "XamC4yEo",
+      "license": "LGPL-3.0-only",
+      "client_side": "required",
+      "server_side": "unsupported",
+      "gallery": [],
+      "featured_gallery": null,
+      "color": 14860609
+    },
+    {
+      "project_id": "KkGupVXJ",
+      "project_type": "mod",
+      "slug": "irislowka",
+      "author": "Iriscom",
+      "title": "Irislowka",
+      "description": "Мод на механики лололошки из сезона Последняя Реальность/Mod based on the plot of Lololoshka from the season Final Reality",
+      "categories": [
+        "decoration",
+        "economy",
+        "food",
+        "forge",
+        "game-mechanics",
+        "storage",
+        "technology"
+      ],
+      "display_categories": [
+        "food",
+        "forge",
+        "game-mechanics",
+        "technology"
+      ],
+      "versions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "downloads": 1196,
+      "follows": 23,
+      "icon_url": "https://cdn.modrinth.com/data/KkGupVXJ/dac29021e1cdf3f0ada02cd04413761dd0c8fb17.jpeg",
+      "date_created": "2024-04-04T06:15:30.003640Z",
+      "date_modified": "2024-06-23T19:44:59.481563Z",
+      "latest_version": "bgYtM1gg",
+      "license": "Apache-2.0",
+      "client_side": "required",
+      "server_side": "required",
+      "gallery": [
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/eaea0c7116dfb6b44f6ce666323dc56afa288f52.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/dd819acfaaeb0a2bb67d150703f54e3ab6938fee.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/a299609c406b8f0edacd5a95e2c25f5ee8118a88.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/d5cc02d62e14c4313f2526f63bfaceb3a0a91742.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/75568dc1e4e807ace097ec757138627e2caaffdf.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/eef12d9ce04518cf04f0548081b15816364fa398.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/25737c0f85d7f1dc9cee7278398be560a0712855.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/f85650dd6482e69e4f86bfb062db06b352a7e7f7.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/537693d4bde428c391842e8fd7a2da67e9a5070f.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/61fe5018f3065439a12aba11fd29a39a09fbaec9.png",
+        "https://cdn.modrinth.com/data/KkGupVXJ/images/24d6bc51452399327ac11f2329f7e8918b18e686.png"
+      ],
+      "featured_gallery": "https://cdn.modrinth.com/data/KkGupVXJ/images/0b77988bdceb11480ff4f15b59f60e7c77a78a2d.png",
+      "color": 12764873
+    },
+    {
+      "project_id": "aBuF1yS0",
+      "project_type": "mod",
+      "slug": "irisium",
+      "author": "Iriscom",
+      "title": "IrisIUM",
+      "description": "This mod was created by the Iriscom team!\nUsing the mod without mentioning the author or a link to this page is impossible!",
+      "categories": [
+        "forge",
+        "game-mechanics",
+        "mobs",
+        "technology",
+        "utility"
+      ],
+      "display_categories": [
+        "forge",
+        "mobs",
+        "technology",
+        "utility"
+      ],
+      "versions": [
+        "1.19.4"
+      ],
+      "downloads": 160,
+      "follows": 5,
+      "icon_url": "https://cdn.modrinth.com/data/aBuF1yS0/d408a8d85d55f0018977451c2a5491c83d3ed861.png",
+      "date_created": "2023-09-08T20:51:51.335829Z",
+      "date_modified": "2023-11-03T12:13:47.485755Z",
+      "latest_version": "FdvsjAwF",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "client_side": "required",
+      "server_side": "required",
+      "gallery": [
+        "https://cdn.modrinth.com/data/aBuF1yS0/images/c64481aad2108d133e343c7e2a0222f51e9ed162.png",
+        "https://cdn.modrinth.com/data/aBuF1yS0/images/791ec8a16a65dfe819d020358a4606246015c384.png"
+      ],
+      "featured_gallery": null,
+      "color": 16777215
+    },
+    {
+      "project_id": "hzg8JQ1H",
+      "project_type": "mod",
+      "slug": "s33r-iris-azalea",
+      "author": "S33R_OF_PYR3",
+      "title": "S33R Iris Azalea",
+      "description": "Adds 33 new flowering azalea bushes and leaves.",
+      "categories": [
+        "decoration",
+        "forge",
+        "game-mechanics"
+      ],
+      "display_categories": [
+        "decoration",
+        "forge"
+      ],
+      "versions": [
+        "1.18.2",
+        "1.19.2"
+      ],
+      "downloads": 555,
+      "follows": 13,
+      "icon_url": "https://cdn.modrinth.com/data/hzg8JQ1H/23fac9e16a778fc1d83616062d2ea074a781045d.png",
+      "date_created": "2023-11-09T01:42:51.869675Z",
+      "date_modified": "2023-11-07T06:57:39.099932Z",
+      "latest_version": "YdtLksYc",
+      "license": "MIT",
+      "client_side": "required",
+      "server_side": "required",
+      "gallery": [
+        "https://cdn.modrinth.com/data/hzg8JQ1H/images/3a677d0b8725e3227b9e999cd9d15b64ea0e2cec.png",
+        "https://cdn.modrinth.com/data/hzg8JQ1H/images/8ed074e85abec2e71ee40b266082523b31a3b94d.png"
+      ],
+      "featured_gallery": "https://cdn.modrinth.com/data/hzg8JQ1H/images/837e7ce3aea06353136d3afcf4abf49dd16dc139.png",
+      "color": 4206672
+    },
+    {
+      "project_id": "CjWwWs0A",
+      "project_type": "modpack",
+      "slug": "create,-iris,-physic,-coblemon",
+      "author": "Minex_2029",
+      "title": "Create, Iris, Physic, Cobblemon",
+      "description": "Just a mod pack with 197 mods. there is Ad Astra! Create Cobblemon Physics mod and Farmers Delight",
+      "categories": [
+        "adventure",
+        "fabric",
+        "lightweight",
+        "optimization",
+        "technology"
+      ],
+      "display_categories": [
+        "lightweight",
+        "technology"
+      ],
+      "versions": [
+        "1.20.1"
+      ],
+      "downloads": 113,
+      "follows": 1,
+      "icon_url": "https://cdn.modrinth.com/data/CjWwWs0A/aee83c2241a25f89c411506c1bff895c4e35dc45.png",
+      "date_created": "2024-06-14T00:16:18.598524Z",
+      "date_modified": "2024-06-01T20:00:15.258935Z",
+      "latest_version": "Qj4t1ilz",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "client_side": "required",
+      "server_side": "unsupported",
+      "gallery": [
+        "https://cdn.modrinth.com/data/CjWwWs0A/images/fab2ee8ddcb256e1a9cece79363dd7740945320a.png"
+      ],
+      "featured_gallery": null,
+      "color": 263172
+    },
+    {
+      "project_id": "14WOtTBN",
+      "project_type": "mod",
+      "slug": "let-me-play-iris",
+      "author": "TBiscuit1",
+      "title": "Let me play Iris!",
+      "description": "Removes the message telling you to not use Not Enough Crashes from Iris",
+      "categories": [
+        "fabric",
+        "management",
+        "utility"
+      ],
+      "display_categories": [
+        "fabric",
+        "management",
+        "utility"
+      ],
+      "versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "downloads": 18151,
+      "follows": 12,
+      "icon_url": "https://cdn.modrinth.com/data/14WOtTBN/7a119739e44a10c60f9d9630d77be04886d4779d.png",
+      "date_created": "2023-04-17T03:17:46.343339Z",
+      "date_modified": "2023-04-15T23:36:22.514996Z",
+      "latest_version": "bGzo3kLq",
+      "license": "MIT",
+      "client_side": "required",
+      "server_side": "unsupported",
+      "gallery": [],
+      "featured_gallery": null,
+      "color": 2366484
+    },
+    {
+      "project_id": "yiYYuulE",
+      "project_type": "modpack",
+      "slug": "distant-horizons-iris-shaders",
+      "author": "Piotr_Barcz",
+      "title": "Distant Horizons & Iris Shaders",
+      "description": "A STABLE, 100 PERCENT WORKING modpack for Distant Horizons & Iris Shaders compatibility. (DH & IRIS ONLY, ADD MORE MODS AT YOUR OWN RISK)",
+      "categories": [
+        "fabric"
+      ],
+      "display_categories": [],
+      "versions": [
+        "1.20.1",
+        "1.20.4",
+        "1.20.6"
+      ],
+      "downloads": 15250,
+      "follows": 3,
+      "icon_url": "https://cdn.modrinth.com/data/yiYYuulE/1e2f77dccb3647722d97112407dc6cecf1524851.jpeg",
+      "date_created": "2024-06-10T19:56:49.666259Z",
+      "date_modified": "2024-06-08T15:59:07.350249Z",
+      "latest_version": "DMIVSCIc",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "client_side": "required",
+      "server_side": "unsupported",
+      "gallery": [
+        "https://cdn.modrinth.com/data/yiYYuulE/images/bf32a2cbe1f6e7b88962cdaeb3e547400ddc4a17.jpeg",
+        "https://cdn.modrinth.com/data/yiYYuulE/images/308e977a38ed7ed90981e4c887212aecf1243d21.png",
+        "https://cdn.modrinth.com/data/yiYYuulE/images/0f485286f4b781e45db104504ffca9aa12f72526.png",
+        "https://cdn.modrinth.com/data/yiYYuulE/images/3b30845a545fa2dcb4fbf068862418ca8426f598.png",
+        "https://cdn.modrinth.com/data/yiYYuulE/images/67fadd5cc847bb5ba224422117a3ab1556404f3a.png",
+        "https://cdn.modrinth.com/data/yiYYuulE/images/00ffd93694ad9f8e7dfdbbf21549fa7577dcb8a0.png",
+        "https://cdn.modrinth.com/data/yiYYuulE/images/9aa851f7994b1298f11dd32c033b8d63bf020cd0.png"
+      ],
+      "featured_gallery": null,
+      "color": 6781779
+    }
+  ],
+  "offset": 0,
+  "limit": 10,
+  "total_hits": 34
+}
