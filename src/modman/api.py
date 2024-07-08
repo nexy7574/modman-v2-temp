@@ -457,3 +457,12 @@ class ModrinthAPI:
         if multiple:
             return [Version.model_validate(x) for x in response]
         return Version.model_validate(response)
+
+
+class FabricAPI:
+    HEADERS = property(lambda self: Headers({"User-Agent": "ModMan/2.0.0a1 (+https://github.com/nexy7574/modman)"}))
+
+    def __init__(self, client: Client = None):
+        self.client = client or Client(
+            base_url="https://meta.fabricmc.net/v2/versions", headers=self.HEADERS, http2=h2 is not None
+        )

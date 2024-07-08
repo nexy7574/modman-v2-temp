@@ -8,12 +8,23 @@ import httpx
 import toml
 from click import Abort
 from rich import print
-from rich.progress import Progress
+from rich.progress import Progress, DownloadColumn, TransferSpeedColumn, TextColumn, BarColumn, TimeRemainingColumn
 from rich.prompt import IntPrompt, Confirm, Prompt
 from .api import ModrinthAPI
 from .models import *
 from pathlib import Path
 from pydantic import BaseModel
+
+
+def _download_progress():
+    return Progress(
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(bar_width=None),
+        "[progress.percentage]{task.percentage:>3.1f}%",
+        DownloadColumn(),
+        TransferSpeedColumn(),
+        TimeRemainingColumn(),
+)
 
 
 class FabricGameVersion(BaseModel):
@@ -102,16 +113,33 @@ class Runtime:
         return new
 
     def download_fabric(self, root_dir: Path):
-        with httpx.Client(base_url="https://meta.fabricmc.net/v2") as client:
-            available_game_versions = {
-                x.version: x
-                for x in map(FabricGameVersion.model_validate, client.get("/versions/game").json())
-            }
-            available_loader_versions = {
-                x.version: x
-                for x in map(FabricGameVersion.model_validate, client.get("/versions/loader").json())
-            }
-        minecraft_version = Prompt.ask("Which minecraft version do you want to download (e.g. 1.20.4, 23w03a)")
+        with httpx.Client(base_url="https://meta.fabricmc.net/v2/versions") as client:
+            available_game_versions = client.get("/game").json()  # [{"version": "1.20.4", "stable": true}]
+            available_loader_versions: list[dict[str, str | bool]] = client.get("/loader").json()
+            available_installer_versions = client.get("/installer").json()
+
+        stable = True
+        while True:
+            minecraft_version = Prompt.ask("Which minecraft version do you want to download (e.g. 1.20.4, 24w21b)")
+            if minecraft_version not in [x["version"] for x in available_game_versions]:
+                print(f"[red]Minecraft version {minecraft_version} is not available.")
+                continue
+            for version in available_game_versions:
+                if version["version"] == minecraft_version:
+                    stable = version["stable"]
+                    break
+            break
+
+        while True:
+            default_loader = available_loader_versions[0]
+            real_loaders = [x for x in available_loader_versions if x["stable"] in [True, stable]]
+            loader_version = Prompt.ask(
+                "Which fabric loader version do you want to download?",
+                default=default_loader["version"],
+                choices=[x["version"] for x in real_loaders[:10]],  # only choose from the 10 latest versions
+            )
+
+
 
     def init(self):
         config = {
